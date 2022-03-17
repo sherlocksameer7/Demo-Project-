@@ -8,5 +8,7 @@ public class Main_file {
         int z = x+y;
         System.out.println(z);
 
+    public static void main(String[] args) {
+
     }
 }
