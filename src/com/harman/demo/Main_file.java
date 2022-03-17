@@ -5,10 +5,14 @@ public class Main_file {
         int x= 10, y=23;
 
         Adition obj = new Adition();
-        int z = x+y;
+        int z = obj.add(x,y);
         System.out.println(z);
 
-    public static void main(String[] args) {
+        Multiply mul_obj = new Multiply();
+        int c = mul_obj.multiply(x,y);
+        System.out.println(c);
+
+
 
     }
 }
